@@ -1,0 +1,98 @@
+@charset "UTF8";
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500&family=Open+Sans:wght@300;400;500&display=swap');
+
+*{
+
+    margin: 0%;
+    padding: 0%;
+
+}
+
+:root{
+
+    --base: #fbfbfd;
+    --base2: #e4b1ab;
+    --pêssego: #e39695;
+    --melancia: #df7373;
+    --morango: #da5552;
+    --maçã: #cc444b;
+    --haste: #718355;
+    --haste2: #87986a;
+    --sombra: rgba(0, 0, 0, .212);
+    --fontea: 'Montserrat';
+    --fonteA: 'Open Sans';
+
+}
+
+body{
+
+    background-color: var(--base);
+    font-family: var(--fontea);
+    width: 100%;
+    text-align: center;
+
+}
+
+header{
+
+    height: 50px;
+    font-family: var(--fonteA);
+    font-size: small;
+    background-color: var(--base2);
+    color: white;
+    text-align: center;
+    box-shadow: 0px 4px 20px var(--sombra);
+    line-height: 2.3;
+
+}
+
+
+
+.containera, .form{
+
+    margin: auto;
+    width: 40vw;
+    height: 50vh;
+    padding-top: 10vh;
+
+}
+
+.form{
+
+    align-items: center;
+
+}
+
+.inputf{
+
+    margin: 20px;
+
+}
+
+.resultado{
+
+    border-radius: 5px;
+    width: 30vw;
+    padding: 20px;
+    margin: auto;
+    background-color: var(--base);
+
+}
+
+input#av1, #av2, #calcular{
+
+    border-radius: 5px;
+    padding: 10px;
+    border: none;
+    box-shadow: 3px 3px 20px var(--sombra);
+
+}
+
+input#calcular{
+
+    border: solid 2px var(--haste);
+    background-color: var(--haste2);
+    color: white;
+
+}
